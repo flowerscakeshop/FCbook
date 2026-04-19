@@ -1,0 +1,27 @@
+# FC Book WordPress Theme
+
+This theme was converted from the FC Book React Accounting Portal. It brings the clean, SaaS-style dashboard aesthetic to WordPress.
+
+## Features
+- **SaaS Dashboard Layout**: Sidebar navigation and bento-style stats cards.
+- **Tailwind CSS**: Uses Tailwind for precise styling (loaded via CDN for easy setup).
+- **Lucide Icons**: Replicates the icon set used in the original app.
+- **Dynamic Loops**: Supports posts, pages, categories, and tags.
+- **Responsive**: Mobile-first grid layout.
+
+## Installation
+1. Download the `wordpress-theme` folder from this project.
+2. Compress (Zip) the folder.
+3. In your WordPress Admin:
+   - Go to **Appearance > Themes**.
+   - Click **Add New**.
+   - Click **Upload Theme** and select your zip file.
+   - **Activate** the theme.
+
+## Customization
+- **Logo**: Change via *Appearance > Customize > Site Identity*.
+- **Menu**: Set your main navigation in *Appearance > Menus* (assign to 'Primary Sidebar Menu').
+- **Dashboard Stats**: The stats on the homepage currently count your published Posts and Users. You can customize `index.php` to track other business metrics.
+
+## Notes
+- This is a layout-first conversion. The complex Firebase logic from the original React app (Invoice generation, real-time sync) is NOT included in this theme code, as WordPress is a PHP-based platform. For a full functional port, consider using a Headless WordPress setup with the original React frontend.

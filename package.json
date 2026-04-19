@@ -1,0 +1,5 @@
+{
+  "name": "FC Book",
+  "description": "A comprehensive React-based accounting system featuring Admin, Customer, and Vendor portals with dashboard analytics, invoice management, and reporting tools.",
+  "requestFramePermissions": []
+}
